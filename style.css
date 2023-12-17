@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.indexBodyCls {
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+}
+
+.headerClass {
+    display: flex;
+}
+
+.headerLogo {
+    margin-top: -80px;
+    margin-left: 18px;
+}
+
+.headerObj2 {
+    margin-top: 35px;
+    margin-left: 800px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    height: 40px;
+}
+
+.headerObj3 {
+    margin-top: 35px;
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    height: 40px;
+}
+
+.headerObj4 {
+    margin-top: 35px;
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    height: 40px;
+    /* text-decoration-color: none; */
+}
+
+.headerObj5 {
+    margin-top: 35px;
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    height: 40px;
+}
+
+.headerObj6 {
+    margin-top: 35px;
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    height: 40px;
+}
+
+.headerClass a:hover {
+    color: rgb(153, 149, 149);
+}
+
+.shopArrow {
+    margin-top: -39px;
+    margin-left: 56px;
+    font-size: 35px;
+}
+
+.aboutArrow{
+    margin-top: -39px;
+    margin-left: 65px;
+    font-size: 35px;
+}
+
+.shopContent {
+    display: none;
+    position: absolute;
+    /* width: 170px;
+    height: 180px; */
+    background-color: rgb(153, 149, 149);
+    color: black;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    padding: 0px 0px 0px 0px;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.headerObj3:hover .shopContent {
+    display: block;
+}
+
+.aboutContent {
+    display: none;
+    position: absolute;
+    background-color: rgb(153, 149, 149);
+    color: black;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    padding: 0px 0px 0px 0px;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.headerObj6:hover .aboutContent {
+    display: block;
+}
+
+.quote1{
+    margin-left: 150px;
+    width: 500px;
+    height: 200px;
+    justify-content: left;
+    background-color: transparent;
+    opacity: .5;
+    /* border-style: solid;
+    border-width: 15px; */
+    /* border-color: grey; */
+    border-radius: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 253, 251);
+    text-transform: uppercase;
+}
+
+.partnersBodyCls{
+    background-image: url('/images/background2.png');
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.partnersDiv{
+    background-color: black;
+    margin-left: 250px;
+    margin-top: -130px;
+    width: 1300px;
+    height: 880px;
+    /* justify-content: center; */
+    /* background-color: transparent; */
+    opacity: .9;
+    /* border-style: solid;
+    border-width: 15px; */
+    /* border-color: grey; */
+    border-radius: 40px;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-size: 35px;
+    color: rgb(243, 241, 240);
+}
+
+.titlePartnercls{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.titlePartnerLogo{
+    padding-left: 490px;
+}
+
+.principalPartnercls{
+    text-align: center;
+}
+
+.principalPartnerLogo{
+    padding-left: 560px;
+}
+
+.teamPartnerscls{
+    text-align: center;
+}
+
+.teamPartnersLogo{
+    padding-left: 100px;
+}
+
+.shopContent p a{ 
+    color: black;
+    text-decoration: none;
+}
+
+.shopContent p{ 
+    background-color: grey;
+    padding: 10px;
+    margin: -4px;
+}
+
+.shopContent p:hover{
+    background-color: green;
+}
+
+.shopContent p a:hover{ 
+    color: black;
+    text-decoration: none;
+}
+
+.aboutContent p a {
+    color: black;
+    text-decoration: none;
+}
+
+.aboutContent p{ 
+    background-color: grey;
+    padding: 10px;
+    margin: -4px;
+}
+
+.aboutContent p:hover{
+    background-color: green;
+}
+
+.aboutContent p a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.sectionOne{
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.sectionTwo{
+    background-image: url('/images/driverPoster.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
